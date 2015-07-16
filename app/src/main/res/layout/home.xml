@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/minions1" />
+ 
+    <ImageView
+        android:id="@+id/ivdisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/minions1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/previous"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:gravity="center"
+                android:background="@drawable/previous" />
+            
+         <!--
+             <Button
+        android:id="@+id/setwallpaper"
+        style="@style/setwallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/roundcornerblue_button"
+        android:clickable="true"
+        android:gravity="center"
+        android:color="#66FF0000"   
+		android:alpha="0.75"
+        android:lines="1"
+        android:minLines="1"
+        android:text="SET BACKGROUND"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+            
+            -->
+
+            <Button
+                android:id="@+id/setwallpaper"
+
+
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/setwallpaper_button"
+
+                android:clickable="true"
+                android:gravity="center"
+                />
+
+
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:gravity="center"
+                android:background="@drawable/next" />
+
+        </LinearLayout>
+
+
+
+       
+        
+        
+    </LinearLayout>
+ 
+</RelativeLayout>

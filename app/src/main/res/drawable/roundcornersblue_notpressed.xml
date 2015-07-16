@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/highlightedTextColor" />
+
+    
+    
+      <!--
+          To change the position of text
+    -->
+    <padding
+        android:bottom="1dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="1dp" />
+
+    
+    
+    <corners
+        android:bottomLeftRadius="8dp"
+        android:bottomRightRadius="8dp"
+        android:topLeftRadius="8dp"
+        android:topRightRadius="8dp" />
+
+    <!--
+          To change the white or red shades in the button
+           
+         <gradient
+        android:angle="270"
+        android:endColor="@color/highlightedTextColor"
+        android:startColor="@color/highlightedConfirmedTextColorGradientTop" />
+    -->
+
+    <gradient
+        android:angle="270"
+        android:endColor="@color/highlightedTextColor"
+        android:startColor="#236B8E" />
+
+    
+     <!--
+          To change the width of the outline of button
+    -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/highlightedTextColor" />
+
+</shape>
